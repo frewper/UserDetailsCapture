@@ -5,3 +5,11 @@ from django.http import *
 
 def home_page_view(request):
     return HttpResponse("Hello World!")
+
+
+def first_page_view(request):
+    return HttpResponse("First View Page")
+
+
+def first_page_view(request):
+    return HttpResponse("First View Page")
